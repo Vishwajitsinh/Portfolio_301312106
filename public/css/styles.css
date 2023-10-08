@@ -1,0 +1,202 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the body font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #292C35;
+    background-image: url('/public/Images/5073414.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px 40px;
+}
+
+/* Add a class for specific elements */
+.Vishu {
+    background-image: url('5073414.jpg');
+    background-repeat: repeat;
+    font-size: 100px;
+}
+
+/* Style the header section */
+header {
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    font-size: 37px;
+}
+
+/* Style the logo */
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+/* Style navigation links */
+nav a {
+    text-decoration: none;
+    color: #f1950b;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    margin-left: 20px;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px aqua;
+}
+
+nav a:hover {
+    background-color: #f1950b;
+    color: #fff;
+    border-color: #f1950b;
+}
+
+/* Style sections */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Style headings */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f8e10d;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* Style the footer */
+footer {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav a {
+        padding: 8px 16px;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+/* Animation keyframes */
+.welcome-section {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: lightseagreen;
+    animation: fadeIn 1s ease 0s forwards;
+}
+
+.welcome-section strong {
+    font-size: 28px;
+    color: #FF5733;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.welcome-section p::after {
+    content: " ";
+    font-size: 28px;
+}
+
+.welcome-section p strong {
+    font-size: 20px;
+    color: #009900;
+}
+
+/* Style the box element */
+.box {
+    border: 5px solid #f1950b;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 30px;
+    animation: scaleUp 1s ease 0s forwards;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style the contact input */
+.contact input {
+    font-size: 27px;
+}
+
+/* Animation keyframes for other elements */
+.services {
+    animation: fadeInUp 2s ease 0s forwards;
+}
+
+.projects {
+    animation: scaleUp 2s ease 0s forwards;
+}

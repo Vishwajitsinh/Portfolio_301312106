@@ -1,0 +1,60 @@
+<!-- Vishwajitsinh Mahida: 301312106-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Services</title>
+
+    <div class="header-logo">
+        <img src='/5073414.jpg' alt="Logo">
+    </div>
+</head>
+<body>
+   
+    <%- include('partials/header') %>
+
+    <!-- Main content for the Services Page -->
+    <section class="services">
+        <h1>My Services</h1>
+        <ul>
+            <div class="servis" style="display: flex; flex-direction: row; justify-content: space-evenly; font-size: 27px;">
+                <div class="serv" style="display: flex; flex-direction: column;">
+                    <li style="color: aqua; font-size: 27px; text-shadow: blue;">
+                        <img src="/pf_image.png" style="height: 300px;"  alt="Portfolio Websites">
+                        <br> Portfolio Websites
+                        <p>
+                            I create stunning and responsive portfolio websites to showcase your work and skills. Your online presence will leave a lasting impression.
+                        </p>
+                    </li>
+                </div>
+                
+                <div class="serv" style="display: flex; flex-direction: column;">
+                    <li style="color: aqua; font-size: 27px; text-shadow: blue; " >
+                        <img src="/2D Tilemap Resized.jpg" style="height: 300px;" alt="2D Game Development in Unity">
+                        <br> 2D Game Development in Unity
+                        <p>
+                            I specialize in 2D game development using Unity. From concept to release, I'll bring your game ideas to life with captivating gameplay and visuals.
+                        </p>
+                    </li>
+                </div>
+
+                <div class="serv" style="display: flex; flex-direction: column;">
+                    <li style="color: aqua; font-size: 27px; text-shadow: blue; " >
+                        <img src="/blender.png" style="height: 300px;" alt="Assets Making and Animation Using GIMP, Blender">
+                        <br> Assets Making and Animation Using GIMP, Blender
+                        <p>
+                            I create custom assets and animations for games using tools like GIMP and Blender. Let me add uniqueness to your game visuals.
+                        </p>
+                    </li>
+                </div>
+            </div>
+        </ul>
+        <p style="font-size: 50px;">I offer a range of services to help you achieve your goals. Let's work together!</p>
+        <a href="/contact" style="color: aqua; font-size: 70px;">Contact Me</a>
+    </section>
+
+    
+    <%- include('partials/footer') %>
+</body>
+</html>
